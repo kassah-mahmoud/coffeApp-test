@@ -1,8 +1,8 @@
-import TilesGame from "./Game";
+import GamePlayer from "./GamePlayer";
 
-const colorsCount = 7;
-const tilesDim = 10;
+const colorsCount = 3;
+const tilesDim = 6;
 
-const coffeAppGame = new TilesGame(tilesDim, colorsCount);
+const player = new GamePlayer(tilesDim, colorsCount);
 
-console.table(coffeAppGame.tiles);
+player.play();

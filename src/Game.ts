@@ -5,7 +5,7 @@ class TilesGame {
   dimension: number = 0;
   numberOfColors: number = 0;
   maxAdjacentTiles: number = 4;
-  private colors: string[] = [];
+  colors: string[] = [];
   tiles: string[][] = [[]];
 
   constructor(
